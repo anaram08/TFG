@@ -1,0 +1,889 @@
+<?xml-model href="codigotfg.xsd"?>
+<sports-content xmlns="http://iptc.org/std/nar/2006-10-01/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:nitf="http://iptc.org/std/NITF/2006-10-18/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <sports-metadata date-time="2023-08-20T12:00:00+10:00" doc-id="fifa.womens.worldcup.final.2023" language="es-ES" fixture-key="spfixt:event-stats" document-class="spct:event-summary">
+        <sports-content-codes>
+            <sports-content-code code-name="FIFA" code-key="publisher:fifa.com" code-type="spct:publisher"/>
+            <sports-content-code code-type="spct:sport" code-key="sport:15054000" code-name="Soccer"/>
+            <sports-content-code code-type="spct:competition" code-key="competition:fifa.worldcup" code-name="Copa Mundial Femenina de la FIFA"/>
+            <sports-content-code code-type="spct:season" code-key="season:2023"/>
+            <sports-content-code code-type="spct:team" code-key="team:esp.wnt" code-name="España"/>
+            <sports-content-code code-type="spct:team" code-key="team:eng.wnt" code-name="Inglaterra"/>
+        </sports-content-codes>
+        <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-G2-Standards_27.xml"/>
+        <catalogRef href="http://www.iptc.org/std/catalog/catalog.IPTC-Sports_1.xml"/>
+    </sports-metadata>
+    <sports-event>
+        <sports-event-metadata>
+            <event-metadata date="2023-08-20" time="12:00" timezone="AEST" competition="Copa Mundial Femenina de la FIFA" stage="Final" location="Sydney" venue="Estadio Australia"/>
+        </sports-event-metadata>
+        <team team-id="ESP">
+            <team-metadata key="vendteam:o.thefa.com-t.2" alignment="home">
+            <name role="nrol:full">Spain</name>
+            </team-metadata>
+            <team-stats score="1" score-opposing="0" event-outcome="speventoutcome:win" time-of-possession-percentage="60">
+                <sub-score period-value="1" score="1"/>
+                <sub-score period-value="2" score="0"/>
+                <team-stats-soccer line-formation="433">
+                    <stats-soccer-offensive shots-total="14" shots-on-goal-total="7" corner-kicks="7"/>
+                    <stats-soccer-foul fouls-commited="15"/>
+                </team-stats-soccer>
+            </team-stats>
+            <team-metadata>
+                <name>España</name>
+                <coach>Jorge Vilda</coach>
+                <player id="ESP23">
+                    <player-metadata key="vendperson:ESP23" position-regular="spsocposition:goalkeeper" uniform-number="23" status="spplayerstatus:starter">
+                        <name role="nrol:full">Cata Coll</name>
+                        <player-metadata-soccer line-formation-position="1"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" events-started="1" time-played-total="90">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="0"/>
+                            <stats-soccer-foul fouls-suffered="1"/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ESP2">
+                    <player-metadata key="vendperson:ESP2" position-regular="spsocposition:defender" uniform-number="2" status="spplayerstatus:starter">
+                        <name role="nrol:full">Ona Batlle</name>
+                        <player-metadata-soccer line-formation-position="2"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" events-started="1" time-played-total="90">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="0"/>
+                            <stats-soccer-foul fouls-suffered="1"/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ESP4">
+                    <player-metadata key="vendperson:ESP4" position-regular="spsocposition:defender" uniform-number="4" status="spplayerstatus:starter">
+                        <name role="nrol:full">Irene Paredes</name>
+                        <player-metadata-soccer line-formation-position="3"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" events-started="1" time-played-total="90">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="0"/>
+                            <stats-soccer-foul fouls-suffered="1"/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ESP14">
+                    <player-metadata key="vendperson:ESP14" position-regular="spsocposition:defender" uniform-number="14" status="spplayerstatus:starter">
+                        <name role="nrol:full">Laia Codina</name>
+                        <player-metadata-soccer line-formation-position="4"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" events-started="1" time-played-total="73">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="0"/>
+                            <stats-soccer-foul fouls-suffered="1"/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ESP19">
+                    <player-metadata key="vendperson:ESP19" position-regular="spsocposition:defender" uniform-number="19" status="spplayerstatus:starter">
+                        <name role="nrol:full">Olga Carmona</name>
+                        <player-metadata-soccer line-formation-position="5"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" events-started="1" time-played-total="90">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive goals-scored="1"/>
+                            <stats-soccer-defensive goals-against-total="0"/>
+                            <stats-soccer-foul fouls-suffered="1"/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ESP3">
+                    <player-metadata key="vendperson:ESP3" position-regular="spsocposition:midfielder" uniform-number="3" status="spplayerstatus:starter">
+                        <name role="nrol:full">Teresa Abelleira</name>
+                        <player-metadata-soccer line-formation-position="6"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" events-started="1" time-played-total="90">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="0"/>
+                            <stats-soccer-foul fouls-suffered="1"/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ESP6">
+                    <player-metadata key="vendperson:ESP6" position-regular="spsocposition:midfielder" uniform-number="6" status="spplayerstatus:starter">
+                        <name role="nrol:full">Aitana Bonmatí</name>
+                        <player-metadata-soccer line-formation-position="7"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" events-started="1" time-played-total="90">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="0"/>
+                            <stats-soccer-foul fouls-suffered="1"/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ESP10">
+                    <player-metadata key="vendperson:ESP10" position-regular="spsocposition:midfielder" uniform-number="10" status="spplayerstatus:starter">
+                        <name role="nrol:full">Jennifer Hermoso</name>
+                        <player-metadata-soccer line-formation-position="7"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" events-started="1" time-played-total="90">
+                    <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="0"/>
+                            <stats-soccer-foul fouls-suffered="1"/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ESP8">
+                    <player-metadata key="vendperson:ESP8" position-regular="spsocposition:forward" uniform-number="8" status="spplayerstatus:starter">
+                        <name role="nrol:full">Mariona Caldentey</name>
+                        <player-metadata-soccer line-formation-position="8"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" events-started="1" time-played-total="90">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="0"/>
+                            <stats-soccer-foul fouls-suffered="1"/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ESP17">
+                    <player-metadata key="vendperson:ESP17" position-regular="spsocposition:forward" uniform-number="17" status="spplayerstatus:starter">
+                        <name role="nrol:full">Alba Redondo</name>
+                        <player-metadata-soccer line-formation-position="9"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" events-started="1" time-played-total="60">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="0"/>
+                            <stats-soccer-foul fouls-suffered="1"/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ESP18">
+                    <player-metadata key="vendperson:ESP18" position-regular="spsocposition:forward" uniform-number="18" status="spplayerstatus:starter">
+                        <name role="nrol:full">Salma Paralluelo</name>
+                        <player-metadata-soccer line-formation-position="10"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" events-started="1" time-played-total="90">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="0"/>
+                            <stats-soccer-foul fouls-suffered="1"/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ESP1">
+                    <player-metadata key="vendperson:ESP1" position-regular="spsocposition:goalkeeper" uniform-number="1" status="spplayerstatus:bench">
+                        <name role="nrol:full">Misa Rodríguez</name>
+                        <player-metadata-soccer line-formation-position="0"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" time-played-total="0">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive/>
+                            <stats-soccer-foul/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ESP13">
+                    <player-metadata key="vendperson:ESP13" position-regular="spsocposition:goalkeeper" uniform-number="13" status="spplayerstatus:bench">
+                        <name role="nrol:full">Enith Salón</name>
+                        <player-metadata-soccer line-formation-position="0"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" time-played-total="0">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive/>
+                            <stats-soccer-foul/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ESP5">
+                    <player-metadata key="vendperson:ESP5" position-regular="spsocposition:defender" uniform-number="5" status="spplayerstatus:bench">
+                        <name role="nrol:full">Ivana Andrés</name>
+                        <player-metadata-soccer line-formation-position="0"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" time-played-total="17">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive/>
+                            <stats-soccer-foul/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ESP7">
+                    <player-metadata key="vendperson:ESP7" position-regular="spsocposition:midfielder" uniform-number="7" status="spplayerstatus:bench">
+                        <name role="nrol:full">Irene Guerrero</name>
+                        <player-metadata-soccer line-formation-position="0"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" time-played-total="0">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive/>
+                            <stats-soccer-foul/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ESP9">
+                    <player-metadata key="vendperson:ESP9" position-regular="spsocposition:forward" uniform-number="9" status="spplayerstatus:bench">
+                        <name role="nrol:full">Esther González</name>
+                        <player-metadata-soccer line-formation-position="0"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" time-played-total="0">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive/>
+                            <stats-soccer-foul/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ESP11">
+                    <player-metadata key="vendperson:ESP11" position-regular="spsocposition:midfielder" uniform-number="11" status="spplayerstatus:bench">
+                        <name role="nrol:full">Alexia Putellas</name>
+                        <player-metadata-soccer line-formation-position="0"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" time-played-total="3">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive/>
+                            <stats-soccer-foul/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ESP12">
+                    <player-metadata key="vendperson:ESP12" position-regular="spsocposition:defender" uniform-number="12" status="spplayerstatus:bench">
+                        <name role="nrol:full">Oihane Hernández</name>
+                        <player-metadata-soccer line-formation-position="0"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" time-played-total="30">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive/>
+                            <stats-soccer-foul/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>               
+                <player id="ESP15">
+                    <player-metadata key="vendperson:ESP15" position-regular="spsocposition:forward" uniform-number="15" status="spplayerstatus:bench">
+                        <name role="nrol:full">Eva Navarro</name>
+                        <player-metadata-soccer line-formation-position="0"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" time-played-total="0">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive/>
+                            <stats-soccer-foul/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ESP16">
+                    <player-metadata key="vendperson:ESP16" position-regular="spsocposition:midfielder" uniform-number="16" status="spplayerstatus:bench">
+                        <name role="nrol:full">Maria Pérez</name>
+                        <player-metadata-soccer line-formation-position="0"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" time-played-total="0">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive/>
+                            <stats-soccer-foul/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ESP20">
+                    <player-metadata key="vendperson:ESP20" position-regular="spsocposition:defender" uniform-number="20" status="spplayerstatus:bench">
+                        <name role="nrol:full">Rocío Gálvez</name>
+                        <player-metadata-soccer line-formation-position="0"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" time-played-total="0">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive/>
+                            <stats-soccer-foul/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ESP21">
+                    <player-metadata key="vendperson:ESP21" position-regular="spsocposition:midfielder" uniform-number="21" status="spplayerstatus:bench">
+                        <name role="nrol:full">Claudia Zornoza</name>
+                        <player-metadata-soccer line-formation-position="0"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" time-played-total="0">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive/>
+                            <stats-soccer-foul/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ESP22">
+                    <player-metadata key="vendperson:ESP22" position-regular="spsocposition:forward" uniform-number="22" status="spplayerstatus:bench">
+                        <name role="nrol:full">Athenea del Castillo</name>
+                        <player-metadata-soccer line-formation-position="0"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" time-played-total="0">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive/>
+                            <stats-soccer-foul/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+            </team-metadata>
+        </team>
+        <team team-id="ENG">
+            <team-metadata key="vendteam:o.thefa.com-t.12" alignment="away">
+            <name role="nrol:full">England</name>
+            </team-metadata>
+            <team-stats score="0" score-opposing="1" event-outcome="speventoutcome:loss" time-of-possession-percentage="40">
+                <sub-score period-value="1" score="0"/>
+                <sub-score period-value="2" score="0"/>
+                <team-stats-soccer line-formation="442">
+                    <stats-soccer-offensive shots-total="7" shots-on-goal-total="1" corner-kicks="3"/>
+                    <stats-soccer-foul fouls-commited="9"/>
+                </team-stats-soccer>
+            </team-stats>
+            <team-metadata>
+                <name>Inglaterra</name>
+                <coach>Sarina Wiegman-Glotzbach</coach>
+                <player id="ENG1">
+                    <player-metadata key="vendperson:ENG1" position-regular="spsocposition:goalkeeper" uniform-number="1" status="spplayerstatus:starter">
+                        <name role="nrol:full">Mary Earps</name>
+                        <player-metadata-soccer line-formation-position="1"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" events-started="1" time-played-total="90">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="1"/>
+                            <stats-soccer-foul fouls-suffered="1"/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ENG5">
+                    <player-metadata key="vendperson:ENG5" position-regular="spsocposition:defender" uniform-number="5" status="spplayerstatus:starter">
+                        <name role="nrol:full">Alex Greenwood</name>
+                        <player-metadata-soccer line-formation-position="2"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" events-started="1" time-played-total="90">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="1"/>
+                            <stats-soccer-foul fouls-suffered="1"/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ENG6">
+                    <player-metadata key="vendperson:ENG6" position-regular="spsocposition:defender" uniform-number="6" status="spplayerstatus:starter">
+                        <name role="nrol:full">Millie Bright</name>
+                        <player-metadata-soccer line-formation-position="3"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" events-started="1" time-played-total="90">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="1"/>
+                            <stats-soccer-foul fouls-suffered="1"/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ENG16">
+                    <player-metadata key="vendperson:ENG16" position-regular="spsocposition:defender" uniform-number="16" status="spplayerstatus:starter">
+                        <name role="nrol:full">Jessica Carter</name>
+                        <player-metadata-soccer line-formation-position="4"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" events-started="1" time-played-total="90">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="1"/>
+                            <stats-soccer-foul fouls-suffered="1"/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ENG2">
+                    <player-metadata key="vendperson:ENG2" position-regular="spsocposition:defender" uniform-number="2" status="spplayerstatus:starter">
+                        <name role="nrol:full">Lucy Bronze</name>
+                        <player-metadata-soccer line-formation-position="5"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" events-started="1" time-played-total="90">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="1"/>
+                            <stats-soccer-foul fouls-suffered="1"/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ENG4">
+                    <player-metadata key="vendperson:ENG4" position-regular="spsocposition:midfielder" uniform-number="4" status="spplayerstatus:starter">
+                        <name role="nrol:full">Keira Walsh</name>
+                        <player-metadata-soccer line-formation-position="6"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" events-started="1" time-played-total="90">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="1"/>
+                            <stats-soccer-foul fouls-suffered="1"/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ENG8">
+                    <player-metadata key="vendperson:ENG8" position-regular="spsocposition:midfielder" uniform-number="8" status="spplayerstatus:starter">
+                        <name role="nrol:full">Georgia Stanway</name>
+                        <player-metadata-soccer line-formation-position="7"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" events-started="1" time-played-total="90">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="1"/>
+                            <stats-soccer-foul fouls-suffered="1"/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ENG9">
+                    <player-metadata key="vendperson:ENG9" position-regular="spsocposition:midfielder" uniform-number="9" status="spplayerstatus:starter">
+                        <name role="nrol:full">Rachel Daly</name>
+                        <player-metadata-soccer line-formation-position="8"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" events-started="1" time-played-total="90">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="1"/>
+                            <stats-soccer-foul fouls-suffered="1"/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ENG10">
+                    <player-metadata key="vendperson:ENG10" position-regular="spsocposition:midfielder" uniform-number="10" status="spplayerstatus:starter">
+                        <name role="nrol:full">Ella Toone</name>
+                        <player-metadata-soccer line-formation-position="9"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" events-started="1" time-played-total="90">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="1"/>
+                            <stats-soccer-foul fouls-suffered="1"/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ENG11">
+                    <player-metadata key="vendperson:ENG11" position-regular="spsocposition:forward" uniform-number="11" status="spplayerstatus:starter">
+                        <name role="nrol:full">Lauren Hemp</name>
+                        <player-metadata-soccer line-formation-position="10"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" events-started="1" time-played-total="90">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="1"/>
+                            <stats-soccer-foul fouls-suffered="1"/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ENG23">
+                    <player-metadata key="vendperson:ENG23" position-regular="spsocposition:forward" uniform-number="23" status="spplayerstatus:starter">
+                        <name role="nrol:full">Alessia Russo</name>
+                        <player-metadata-soccer line-formation-position="11"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" events-started="1" time-played-total="90">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="1"/>
+                            <stats-soccer-foul fouls-suffered="1"/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player> 
+                <player id="ENG13">
+                    <player-metadata key="vendperson:ENG13" position-regular="spsocposition:goalkeeper" uniform-number="13" status="spplayerstatus:bench">
+                        <name role="nrol:full">Hannah Hampton</name>
+                        <player-metadata-soccer line-formation-position="0"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" time-played-total="0">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="0"/>
+                            <stats-soccer-foul/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ENG21">
+                    <player-metadata key="vendperson:ENG21" position-regular="spsocposition:goalkeeper" uniform-number="21" status="spplayerstatus:bench">
+                        <name role="nrol:full">Ellie Roebuck</name>
+                        <player-metadata-soccer line-formation-position="0"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" time-played-total="0">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="0"/>
+                            <stats-soccer-foul/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ENG03">
+                    <player-metadata key="vendperson:ENG03" position-regular="spsocposition:midfielder" uniform-number="3" status="spplayerstatus:bench">
+                        <name role="nrol:full">Niamh Charles</name>
+                        <player-metadata-soccer line-formation-position="0"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" time-played-total="0">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="0"/>
+                            <stats-soccer-foul/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ENG07">
+                    <player-metadata key="vendperson:ENG07" position-regular="spsocposition:forward" uniform-number="7" status="spplayerstatus:bench">
+                        <name role="nrol:full">Lauren James</name>
+                        <player-metadata-soccer line-formation-position="0"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" time-played-total="45">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="1"/>
+                            <stats-soccer-foul fouls-suffered="1"/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ENG12">
+                    <player-metadata key="vendperson:ENG12" position-regular="spsocposition:midfielder" uniform-number="12" status="spplayerstatus:bench">
+                        <name role="nrol:full">Jordan Nobbs</name>
+                        <player-metadata-soccer line-formation-position="0"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" time-played-total="0">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="0"/>
+                            <stats-soccer-foul/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ENG14">
+                    <player-metadata key="vendperson:ENG14" position-regular="spsocposition:defender" uniform-number="14" status="spplayerstatus:bench">
+                        <name role="nrol:full">Lotte Wubben-Moy</name>
+                        <player-metadata-soccer line-formation-position="0"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" time-played-total="0">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="0"/>
+                            <stats-soccer-foul/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ENG15">
+                    <player-metadata key="vendperson:ENG15" position-regular="spsocposition:defender" uniform-number="15" status="spplayerstatus:bench">
+                        <name role="nrol:full">Esme Morgan</name>
+                        <player-metadata-soccer line-formation-position="0"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" time-played-total="0">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="0"/>
+                            <stats-soccer-foul/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ENG17">
+                    <player-metadata key="vendperson:ENG17" position-regular="spsocposition:midfielder" uniform-number="17" status="spplayerstatus:bench">
+                        <name role="nrol:full">Laura Combs</name>
+                        <player-metadata-soccer line-formation-position="0"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" time-played-total="0">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="0"/>
+                            <stats-soccer-foul/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ENG18">
+                    <player-metadata key="vendperson:ENG18" position-regular="spsocposition:forward" uniform-number="18" status="spplayerstatus:bench">
+                        <name role="nrol:full">Chloe Kelly</name>
+                        <player-metadata-soccer line-formation-position="0"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" time-played-total="45">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="1"/>
+                            <stats-soccer-foul fouls-suffered="1"/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ENG19">
+                    <player-metadata key="vendperson:ENG19" position-regular="spsocposition:forward" uniform-number="19" status="spplayerstatus:bench">
+                        <name role="nrol:full">Beth Mead</name>
+                        <player-metadata-soccer line-formation-position="0"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" time-played-total="3">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="1"/>
+                            <stats-soccer-foul/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ENG20">
+                    <player-metadata key="vendperson:ENG20" position-regular="spsocposition:midfielder" uniform-number="20" status="spplayerstatus:bench">
+                        <name role="nrol:full">Katie Zelem</name>
+                        <player-metadata-soccer line-formation-position="0"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" time-played-total="0">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="0"/>
+                            <stats-soccer-foul/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>
+                <player id="ENG22">
+                    <player-metadata key="vendperson:ENG22" position-regular="spsocposition:forward" uniform-number="22" status="spplayerstatus:bench">
+                        <name role="nrol:full">Katie Robinson</name>
+                        <player-metadata-soccer line-formation-position="0"/>
+                    </player-metadata>
+                    <player-stats team-coverage="single-team" temporal-unit-type="sptemporalunit:event" time-played-total="0">
+                        <player-stats-soccer>
+                            <stats-soccer-offensive/>
+                            <stats-soccer-defensive goals-against-total="0"/>
+                            <stats-soccer-foul/>
+                        </player-stats-soccer>
+                    </player-stats>
+                </player>               
+            </team-metadata>
+        </team>
+        <officials>
+            <official role="referee">Tori Penso</official>
+            <official role="assistant_referee_1">Brooke Mayo</official>
+            <official role="assistant_referee_2">Katie Nesbitt</official>
+            <official role="fourth_official">Yoshimi Yamashita</official>
+            <official role="video_assistant_referee">Tatiana Guzman</official>
+            <official role="offside_var_assistant">Ella de Vries</official>
+            <official role="assistant_var">Pol van Boekel</official>
+            <official role="support_var">Armando Villarreal</official>
+        </officials>
+        <actions>
+            <action class="spactionclass:play" id="ENG11" sequence-number="1" minutes-elapsed="5" time-elapsed="00:05" period-value="1" team-idref="ENG" type="spsocaction:shot-on-goal">
+                <participant idref="Lauren Hemp" role="spsocrole:shooter"/>
+            </action>
+            <action class="spactionclass:play" id="ENG23" sequence-number="2" minutes-elapsed="5" time-elapsed="00:05" period-value="1" team-idref="ENG" type="spsocaction:offside">
+                <participant idref="Alessia Russo" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:play" id="ESP18" sequence-number="3" minutes-elapsed="10" time-elapsed="00:10" period-value="1" team-idref="ESP" type="spsocaction:foul-committed">
+                <participant idref="Salma Paralluelo" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:play" id="ENG2" sequence-number="4" minutes-elapsed="11" time-elapsed="00:11" period-value="1" team-idref="ENG" type="spsocaction:foul-committed">
+                <participant idref="Lucy Bronze" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:play" id="ENG5" sequence-number="5" minutes-elapsed="12" time-elapsed="00:12" period-value="1" team-idref="ENG" type="spsocaction:corner-kick">
+                <participant idref="Alex Greenwood" role="spsocrole:kicker"/>
+            </action>
+            <action class="spactionclass:play" id="ENG23" sequence-number="6" minutes-elapsed="15" time-elapsed="00:15" period-value="1" team-idref="ENG" type="spsocaction:foul-committed">
+                <participant idref="Alesia Russo" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:play" id="ESP8" sequence-number="7" minutes-elapsed="15" time-elapsed="00:15" period-value="1" team-idref="ESP" type="spsocaction:foul-committed">
+                <participant idref="Mariona Caldentey" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:play" id="ENG11" sequence-number="8" minutes-elapsed="16" time-elapsed="00:16" period-value="1" team-idref="ENG" type="spsocaction:shot-on-goal">
+                <participant idref="Lauren Hemp" role="spsocrole:shooter"/>
+            </action>
+            <action class="spactionclass:play" id="ESP17" sequence-number="9" minutes-elapsed="17" time-elapsed="00:17" period-value="1" team-idref="ESP" type="spsocaction:shot">
+                <participant idref="Alba Redondo" role="spsocrole:shooter"/>
+            </action>
+            <action class="spactionclass:play" id="ESP18" sequence-number="10" minutes-elapsed="17" time-elapsed="00:17" period-value="1" team-idref="ESP" type="spsocaction:shot">
+                <participant idref="Salma Paralluelo" role="spsocrole:shooter"/>
+            </action>
+            <action class="spactionclass:play" id="ENG11" sequence-number="11" minutes-elapsed="20" time-elapsed="00:20" period-value="1" team-idref="ENG" type="spsocaction:shot">
+                <participant idref="Lauren Hemp" role="spsocrole:shooter"/>
+            </action>
+            <action class="spactionclass:play" id="ENG6" sequence-number="12" minutes-elapsed="22" time-elapsed="00:22" period-value="1" team-idref="ENG" type="spsocaction:foul-committed">
+                <participant idref="Millie Bright" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:play" id="ESP2" sequence-number="13" minutes-elapsed="23" time-elapsed="00:23" period-value="1" team-idref="ESP" type="spsocaction:foul-committed">
+                <participant idref="Ona Batlle" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:play" id="ENG23" sequence-number="14" minutes-elapsed="26" time-elapsed="00:26" period-value="1" team-idref="ENG" type="spsocaction:offside">
+                <participant idref="Alessia Russo" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:play" id="ENG9" sequence-number="15" minutes-elapsed="28" time-elapsed="00:28" period-value="1" team-idref="ENG" type="spsocaction:foul-committed">
+                <participant idref="Rachel Daly" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:play" id="ESP19" sequence-number="16" minutes-elapsed="29" time-elapsed="00:29" period-value="1" team-idref="ESP" type="spsocaction:goal">
+                <participant idref="Olga Carmona" role="spsocrole:scorer"/>
+            </action>
+            <action class="spactionclass:play" id="ESP17" sequence-number="17" minutes-elapsed="30" time-elapsed="00:30" period-value="1" team-idref="ESP" type="spsocaction:foul-committed">
+                <participant idref="Alba Redondo" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:play" id="ENG8" sequence-number="18" minutes-elapsed="36" time-elapsed="00:36" period-value="1" team-idref="ENG" type="spsocaction:foul-committed">
+                <participant idref="Georgia Stanway" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:play" id="ESP4" sequence-number="19" minutes-elapsed="37" time-elapsed="00:37" period-value="1" team-idref="ESP" type="spsocaction:shot">
+                <participant idref="Irene Paredes" role="spsocrole:shooter"/>
+            </action>
+            <action class="spactionclass:play" id="ESP17" sequence-number="20" minutes-elapsed="39" time-elapsed="00:39" period-value="1" team-idref="ESP" type="spsocaction:shot">
+                <participant idref="Alba Redondo" role="spsocrole:shooter"/>
+            </action>
+            <action class="spactionclass:play" id="ENG10" sequence-number="21" minutes-elapsed="42" time-elapsed="00:42" period-value="1" team-idref="ENG" type="spsocaction:offside">
+                <participant idref="Ella Toone" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:play" id="ESP18" sequence-number="22" minutes-elapsed="45+2" time-elapsed="00:47" period-value="1" team-idref="ESP" type="spsocaction:shot">
+                <participant idref="Salma Paralluelo" role="spsocrole:shooter"/>
+            </action>
+            <action class="spactionclass:substitution" id="ENG07" sequence-number="23" minutes-elapsed="46" time-elapsed="00:46" period-value="2" team-idref="ENG" type="spsocaction:sub-on">
+                <participant idref="Lauren James" role="spsocrole:sub-on"/>
+            </action>
+            <action class="spactionclass:substitution" id="ENG23" sequence-number="24" minutes-elapsed="46" time-elapsed="00:46" period-value="2" team-idref="ENG" type="spsocaction:sub-off">
+                <participant idref="Alessia Russo" role="spsocrole:sub-off"/>
+            </action>
+            <action class="spactionclass:substitution" id="ENG18" sequence-number="25" minutes-elapsed="46" time-elapsed="00:46" period-value="2" team-idref="ENG" type="spsocaction:sub-on">
+                <participant idref="Chloe Kelly" role="spsocrole:sub-on"/>
+            </action>
+            <action class="spactionclass:substitution" id="ENG9" sequence-number="26" minutes-elapsed="46" time-elapsed="00:46" period-value="2" team-idref="ENG" type="spsocaction:sub-off">
+                <participant idref="Rachel Daly" role="spsocrole:sub-off"/>
+            </action>
+            <action class="spactionclass:play" id="ENG11" sequence-number="27" minutes-elapsed="46" time-elapsed="00:46" period-value="2" team-idref="ENG" type="spsocaction:foul-committed">
+                <participant idref="Lauren Hemp" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:play" id="ESP19" sequence-number="28" minutes-elapsed="46" time-elapsed="00:46" period-value="2" team-idref="ESP" type="spsocaction:foul-committed">
+                <participant idref="Olga Carmona" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:play" id="ENG18" sequence-number="29" minutes-elapsed="47" time-elapsed="00:47" period-value="2" team-idref="ENG" type="spsocaction:foul-committed">
+                <participant idref="Chloe Kelly" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:play" id="ESP8" sequence-number="30" minutes-elapsed="50" time-elapsed="00:50" period-value="2" team-idref="ESP" type="spsocaction:shot">
+                <participant idref="Mariona Caldentey" role="spsocrole:shooter"/>
+            </action>
+            <action class="spactionclass:play" id="ESP3" sequence-number="31" minutes-elapsed="50" time-elapsed="00:50" period-value="2" team-idref="ESP" type="spsocaction:corner-kick">
+                <participant idref="Teresa Abelleira" role="spsocrole:kicker"/>
+            </action>
+            <action class="spactionclass:play" id="ENG11" sequence-number="32" minutes-elapsed="54" time-elapsed="00:54" period-value="2" team-idref="ENG" type="spsocaction:shot">
+                <participant idref="Lauren Hemp" role="spsocrole:shooter"/>
+            </action>
+            <action class="spactionclass:play" id="ENG11" sequence-number="33" minutes-elapsed="55" time-elapsed="00:55" period-value="2" team-idref="ENG" type="spsocaction:foul-committed">
+                <participant idref="Lauren Hemp" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:play" id="ENG11" sequence-number="34" minutes-elapsed="55" time-elapsed="00:55" period-value="2" team-idref="ENG" type="spsocaction:yellow-card">
+                <participant idref="Lauren Hemp" role="spsocrole:recipient"/>
+            </action>
+            <action class="spactionclass:play" id="ESP3" sequence-number="35" minutes-elapsed="57" time-elapsed="00:57" period-value="2" team-idref="ESP" type="spsocaction:corner-kick">
+                <participant idref="Teresa Abelleira" role="spsocrole:kicker"/>
+            </action>
+            <action class="spactionclass:play" id="ENG4" sequence-number="36" minutes-elapsed="59" time-elapsed="00:59" period-value="2" team-idref="ENG" type="spsocaction:foul-committed">
+                <participant idref="Keira Walsh" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:play" id="ENG18" sequence-number="37" minutes-elapsed="60" time-elapsed="01:00" period-value="2" team-idref="ENG" type="spsocaction:shot">
+                <participant idref="Chloe Kelly" role="spsocrole:shooter"/>
+            </action>
+            <action class="spactionclass:substitution" id="ESP12" sequence-number="38" minutes-elapsed="60" time-elapsed="01:00" period-value="2" team-idref="ESP" type="spsocaction:sub-on">
+                <participant idref="Oihane Hernandez" role="spsocrole:sub-on"/>
+            </action>
+            <action class="spactionclass:substitution" id="ESP17" sequence-number="39" minutes-elapsed="60" time-elapsed="01:00" period-value="2" team-idref="ESP" type="spsocaction:sub-off">
+                <participant idref="Alba Redondo" role="spsocrole:sub-off"/>
+            </action>
+            <action class="spactionclass:play" id="ESP6" sequence-number="40" minutes-elapsed="62" time-elapsed="01:02" period-value="2" team-idref="ESP" type="spsocaction:shot">
+                <participant idref="Aitana Bonmatí" role="spsocrole:shooter"/>
+            </action>
+            <action class="spactionclass:play" id="ENG8" sequence-number="41" minutes-elapsed="62" time-elapsed="01:02" period-value="2" team-idref="ENG" type="spsocaction:foul-committed">
+                <participant idref="Georgia Stanway" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:play" id="ENG8" sequence-number="42" minutes-elapsed="64" time-elapsed="01:04" period-value="2" team-idref="ENG" type="spsocaction:corner-kick">
+                <participant idref="Georgia Stanway" role="spsocrole:kicker"/>
+            </action> 
+            <action class="spactionclass:play" id="ESP18" sequence-number="43" minutes-elapsed="64" time-elapsed="01:04" period-value="2" team-idref="ESP" type="spsocaction:shot">
+                <participant idref="Salma Paralluelo" role="spsocrole:shooter"/>
+            </action>
+            <action class="spactionclass:play" id="ENG4" sequence-number="44" minutes-elapsed="64" time-elapsed="01:04" period-value="2" team-idref="ENG" type="spsocaction:foul-committed">
+                <participant idref="Keira Walsh" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:play" id="ESP10" sequence-number="45" minutes-elapsed="70" time-elapsed="01:10" period-value="2" team-idref="ESP" type="spsocaction:penalty-miss">
+                <participant idref="Jennifer Hermoso" role="spsocrole:kicker"/>
+            </action>
+            <action class="spactionclass:play" id="ENG1" sequence-number="46" minutes-elapsed="70" time-elapsed="01:10" period-value="2" team-idref="ENG" type="spsocaction:penalty-save">
+                <participant idref="Mary Earps" role="spsocrole:goalkeeper"/>
+            </action>
+            <action class="spactionclass:play" id="ENG18" sequence-number="47" minutes-elapsed="71" time-elapsed="01:11" period-value="2" team-idref="ENG" type="spsocaction:offside">
+                <participant idref="Chloe Kelly" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:substitution" id="ESP5" sequence-number="48" minutes-elapsed="73" time-elapsed="01:13" period-value="2" team-idref="ESP" type="spsocaction:sub-on">
+                <participant idref="Ivana Andrés" role="spsocrole:sub-on"/>
+            </action>
+            <action class="spactionclass:substitution" id="ESP14" sequence-number="49" minutes-elapsed="73" time-elapsed="01:13" period-value="2" team-idref="ESP" type="spsocaction:sub-off">
+                <participant idref="Laia Codina" role="spsocrole:sub-off"/>
+            </action>
+            <action class="spactionclass:play" id="ENG2" sequence-number="50" minutes-elapsed="74" time-elapsed="01:14" period-value="2" team-idref="ENG" type="spsocaction:shot">
+                <participant idref="Lucy Bronze" role="spsocrole:shooter"/>
+            </action>
+            <action class="spactionclass:play" id="ENG07" sequence-number="51" minutes-elapsed="76" time-elapsed="01:16" period-value="2" team-idref="ENG" type="spsocaction:shot">
+                <participant idref="Lauren James" role="spsocrole:shooter"/>
+            </action>
+            <action class="spactionclass:play" id="ENG5" sequence-number="52" minutes-elapsed="76" time-elapsed="01:16" period-value="2" team-idref="ENG" type="spsocaction:corner-kick">
+                <participant idref="Alex Greenwood" role="spsocrole:kicker"/>
+            </action>
+            <action class="spactionclass:play" id="ESP18" sequence-number="53" minutes-elapsed="77" time-elapsed="01:17" period-value="2" team-idref="ESP" type="spsocaction:foul-committed">
+                <participant idref="Salma Paralluelo" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:play" id="ESP18" sequence-number="54" minutes-elapsed="78" time-elapsed="01:18" period-value="2" team-idref="ESP" type="spsocaction:yellow-card">
+                <participant idref="Salma Paralluelo" role="spsocrole:recipient"/>
+            </action>
+            <action class="spactionclass:play" id="ESP3" sequence-number="55" minutes-elapsed="85" time-elapsed="01:25" period-value="2" team-idref="ESP" type="spsocaction:foul-committed">
+                <participant idref="Teresa Abelleira" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:substitution" id="ENG19" sequence-number="56" minutes-elapsed="87" time-elapsed="01:27" period-value="2" team-idref="ENG" type="spsocaction:sub-on">
+                <participant idref="Beth Mead" role="spsocrole:sub-on"/>
+            </action>
+            <action class="spactionclass:substitution" id="ENG10" sequence-number="57" minutes-elapsed="87" time-elapsed="01:27" period-value="2" team-idref="ENG" type="spsocaction:sub-off">
+                <participant idref="Ella Toone" role="spsocrole:sub-off"/>
+            </action>
+            <action class="spactionclass:play" id="ENG6" sequence-number="58" minutes-elapsed="89" time-elapsed="01:29" period-value="2" team-idref="ENG" type="spsocaction:shot">
+                <participant idref="Millie Bright" role="spsocrole:shooter"/>
+            </action>
+            <action class="spactionclass:play" id="ESP10" sequence-number="59" minutes-elapsed="90" time-elapsed="01:30" period-value="2" team-idref="ESP" type="spsocaction:shot">
+                <participant idref="Jennifer Hermoso" role="spsocrole:shooter"/>
+            </action>
+            <action class="spactionclass:play" id="ESP3" sequence-number="60" minutes-elapsed="90" time-elapsed="01:30" period-value="2" team-idref="ESP" type="spsocaction:corner-kick">
+                <participant idref="Teresa Abelleira" role="spsocrole:kicker"/>
+            </action>
+            <action class="spactionclass:substitution" id="ESP11" sequence-number="61" minutes-elapsed="90" time-elapsed="01:30" period-value="2" team-idref="ESP" type="spsocaction:sub-on">
+                <participant idref="Alexia Putellas" role="spsocrole:sub-on"/>
+            </action>
+            <action class="spactionclass:substitution" id="ESP8" sequence-number="62" minutes-elapsed="90" time-elapsed="01:30" period-value="2" team-idref="ESP" type="spsocaction:sub-off">
+                <participant idref="Mariona Caldentey" role="spsocrole:sub-off"/>
+            </action>
+            <action class="spactionclass:play" id="ESP2" sequence-number="63" minutes-elapsed="90+2" time-elapsed="90:02" period-value="2" team-idref="ESP" type="spsocaction:shot">
+                <participant idref="Ona Batlle" role="spsocrole:shooter"/>
+            </action>
+            <action class="spactionclass:play" id="ESP18" sequence-number="64" minutes-elapsed="90+3" time-elapsed="90:03" period-value="2" team-idref="ESP" type="spsocaction:corner-kick">
+                <participant idref="Salma Paralluelo" role="spsocrole:kicker"/>
+            </action>
+            <action class="spactionclass:play" id="ESP4" sequence-number="65" minutes-elapsed="90+3" time-elapsed="90:03" period-value="2" team-idref="ESP" type="spsocaction:foul-committed">
+                <participant idref="Irene Paredes" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:play" id="ENG2" sequence-number="66" minutes-elapsed="90+5" time-elapsed="90:05" period-value="2" team-idref="ENG" type="spsocaction:foul-committed">
+                <participant idref="Lucy Bronze" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:play" id="ENG8" sequence-number="67" minutes-elapsed="90+5" time-elapsed="90:05" period-value="2" team-idref="ENG" type="spsocaction:foul-committed">
+                <participant idref="Georgia Stanway" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:play" id="ESP6" sequence-number="68" minutes-elapsed="90+8" time-elapsed="90:08" period-value="2" team-idref="ESP" type="spsocaction:shot">
+                <participant idref="Aitana Bonmatí" role="spsocrole:shooter"/>
+            </action>
+            <action class="spactionclass:play" id="ESP18" sequence-number="69" minutes-elapsed="90+9" time-elapsed="90:09" period-value="2" team-idref="ESP" type="spsocaction:shot">
+                <participant idref="Salma Paralluelo" role="spsocrole:shooter"/>
+            </action>
+            <action class="spactionclass:play" id="ESP3" sequence-number="70" minutes-elapsed="90+9" time-elapsed="90:09" period-value="2" team-idref="ESP" type="spsocaction:corner-kick">
+                <participant idref="Teresa Abelleira" role="spsocrole:kicker"/>
+            </action>
+            <action class="spactionclass:play" id="ESP18" sequence-number="71" minutes-elapsed="90+10" time-elapsed="90:10" period-value="2" team-idref="ESP" type="spsocaction:corner-kick">
+                <participant idref="Salma Paralluelo" role="spsocrole:kicker"/>
+            </action>
+            <action class="spactionclass:play" id="ENG18" sequence-number="72" minutes-elapsed="90+11" time-elapsed="90:11" period-value="2" team-idref="ENG" type="spsocaction:foul-committed">
+                <participant idref="Chloe Kelly" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:play" id="ESP18" sequence-number="73" minutes-elapsed="90+12" time-elapsed="90:12" period-value="2" team-idref="ESP" type="spsocaction:foul-committed">
+                <participant idref="Salma Paralluelo" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:play" id="ENG11" sequence-number="74" minutes-elapsed="90+12" time-elapsed="90:12" period-value="2" team-idref="ENG" type="spsocaction:foul-committed">
+                <participant idref="Lauren Hemp" role="spsocrole:offender"/>
+            </action>
+            <action class="spactionclass:play" id="ENG18" sequence-number="75" minutes-elapsed="90+12" time-elapsed="90:12" period-value="2" team-idref="ENG" type="spsocaction:corner-kick">
+                <participant idref="Chloe Kelly" role="spsocrole:kicker"/>
+            </action>           
+        </actions>
+    </sports-event>
+</sports-content>
